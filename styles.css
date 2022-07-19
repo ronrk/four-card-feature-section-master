@@ -37,7 +37,7 @@ body {
 .header {
   text-align: center;
   width: 80vw;
-  margin-bottom: 6rem; }
+  margin: 6rem 0; }
   .header__text {
     margin-top: 2rem;
     font-size: 1.5rem;
