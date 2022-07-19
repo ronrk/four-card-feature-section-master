@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+$color-primary-red: hsl(0, 78%, 62%);
+$color-primary-cyan: hsl(180, 62%, 55%);
+$color-primary-orange: hsl(34, 97%, 64%);
+$color-primary-blue: hsl(212, 86%, 64%);
+
+$color-neatral-blue-dark: hsl(234, 12%, 34%);
+$color-neatral-blue-grey: hsl(229, 6%, 66%);
+$color-neatral-grey-light: hsl(0, 0%, 98%);
+
+$font-default: 'Poppins', sans-serif;
+
+$bp-medium: 53.125em;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-default;
+  color: $color-neatral-blue-grey;
+  font-weight: 400;
+  background-color: $color-neatral-grey-light;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.heading {
+  color: $color-neatral-blue-dark;
+  letter-spacing: 1.2px;
+  &--1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  &--2 {
+    font-size: 3rem;
+    font-weight: 200;
+  }
+
+  &--3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+}
+
+.header {
+  text-align: center;
+  width: 80vw;
+  margin-bottom: 6rem;
+  &__text {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 2rem 5rem;
+  }
+}

@@ -1,0 +1,19 @@
+.card {
+  background-color: #fff;
+  border-top: 3px $color-primary-red solid;
+  border-radius: 3px;
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.4);
+
+  &__text {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+
+  &__img {
+    justify-self: end;
+  }
+}
